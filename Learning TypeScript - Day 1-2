@@ -1,0 +1,49 @@
+# Day 1-2: Set up TypeScript Environment
+
+## Install Node.js and npm
+
+To start using TypeScript, you first need to install Node.js and npm (Node Package Manager). Follow these steps:
+
+1. **Download Node.js**:
+   - Visit the [Node.js official website](https://nodejs.org/).
+   - Download the LTS (Long-Term Support) version suitable for your operating system.
+
+2. **Install Node.js**:
+   - Run the downloaded installer.
+   - Follow the prompts in the installation wizard.
+   - The installer includes npm, so it will be installed automatically.
+
+3. **Verify Installation**:
+   - Open your terminal (Command Prompt, PowerShell, or any terminal on macOS/Linux).
+   - Check the version of Node.js:
+     ```sh
+     node -v
+     ```
+   - Check the version of npm:
+     ```sh
+     npm -v
+     ```
+
+## Install TypeScript using npm
+
+Once Node.js and npm are installed, you can install TypeScript globally using npm. Follow these steps:
+
+1. **Install TypeScript**:
+   - Open your terminal.
+   - Run the following command to install TypeScript globally:
+     ```sh
+     npm install -g typescript
+     ```
+
+2. **Verify the Installation**:
+   - After the installation completes, verify the TypeScript installation by checking the version:
+     ```sh
+     tsc --version
+     ```
+
+## Summary
+
+- **Node.js and npm**: Installed Node.js and npm to manage packages and run JavaScript code.
+- **TypeScript**: Installed TypeScript globally using npm to compile TypeScript code.
+
+You're now ready to start writing TypeScript code!
